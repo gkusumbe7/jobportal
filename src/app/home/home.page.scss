@@ -1,27 +1,20 @@
-#container {
-  text-align: center;
+  .main-contenet {
+    text-align: center;
+    font-family: Satoshi;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-inline: 10px;
+    font-size: 35px;
+  }
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+  .src-btn {
+    margin-top: 15%;
+    margin-left: 25%;
+    margin-right: 20%;
+    --background: #032f0e;  /* Custom background color */
+    --color: rgb(27, 235, 239);         /* Text/Icon color */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds shadow */
+  --border-radius: 24px; /* Optional: Rounds corners */
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
+  }
