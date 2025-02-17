@@ -1,0 +1,55 @@
+.userprofile-div {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background: linear-gradient(90deg, #40189D 0%, rgb(53, 53, 192) 35%, #572AC1 100%);
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+
+.user-img {
+    border-radius: 60%;
+    height: 72px;
+    width: 70px;
+}
+
+.container {
+    position: relative;
+    height: 60%;
+}
+
+.custom-searchbar {
+    
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    --border-radius: 35px;
+    --background: white;
+}
+
+.jobappInter {
+    margin-inline: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.job-in {
+    
+    border-radius: 10%;
+    padding: 10px;
+    
+    box-shadow: 0 4px 10px rgba(39, 20, 20, 0.2), 0 0 15px rgba(43, 192, 38, 0.3); /* Multiple shadows */
+    background-color: #fff;
+}
+.couting-num {
+    font-size: 45px;
+}
+.job-in-text {
+    font-size: 25px;
+}
