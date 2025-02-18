@@ -76,3 +76,56 @@
     background: linear-gradient(90deg, #48A9F8 0%, #48A9F8 35%, #48A9F8 100%);
     
 }
+.categories {
+    margin: 5%;
+}
+
+.categories-items {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.categories-item {
+    border: 1px solid black;
+    border-radius: 20%;
+    box-shadow: 0 4px 10px rgba(198, 38, 38, 0.2), 0 0 15px rgba(43, 192, 38, 0.3); /* Multiple shadows */
+    
+}
+.categories-text {
+    font-size: 26px;
+}
+
+.job-img {
+    border: 1px solid violet;
+    height:100px;
+}
+
+.job-card {
+    border: 1px solid black;
+    // width: 50%;
+    display: flex;
+    // justify-content: space-between;
+}
+
+
+.recomended-card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rgba(39, 20, 20, 0.2), 0 0 15px rgba(43, 192, 38, 0.3); /* Multiple shadows */
+    
+}
+
+.job-img {
+    margin-top: 10px;
+    border-radius: 10%;
+    padding: 2px;
+    background-color: #572AC1;
+    border: 1px solid rgb(35, 5, 10);
+}
+
+.rec-text { 
+display:block;
+ border: 1px solid black;
+}
