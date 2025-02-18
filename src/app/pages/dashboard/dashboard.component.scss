@@ -1,4 +1,5 @@
 .userprofile-div {
+     border: 1px solid black;
     display: flex;
     color: white;
     justify-content: space-between;
@@ -9,24 +10,26 @@
     background: linear-gradient(90deg, #40189D 0%, rgb(53, 53, 192) 35%, #572AC1 100%);
     border-bottom-right-radius: 10%;
     border-bottom-left-radius: 10%;
+    border: 1px solid black;
 }
 
 
 .user-img {
-    border-radius: 60%;
+    border-radius: 30%;
     height: 72px;
     width: 70px;
 }
 
 .container {
+     border: 1px solid black;
     position: relative;
-    height: 60%;
+    height:fit-content;
 }
 
 .custom-searchbar {
-    
+    border: 1px solid black;
     position: absolute;
-    top: 85%;
+    top: 94%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
@@ -35,21 +38,41 @@
 }
 
 .jobappInter {
+    
+     border: 1px solid black;
+    margin-top: 10%;
+     border: 1px solid black;
     margin-inline: 10%;
     display: flex;
     justify-content: space-between;
 }
 .job-in {
-    
+    color: white;
+     border: 1px solid black;
     border-radius: 10%;
     padding: 10px;
-    
+    width: 44%;
     box-shadow: 0 4px 10px rgba(39, 20, 20, 0.2), 0 0 15px rgba(43, 192, 38, 0.3); /* Multiple shadows */
     background-color: #fff;
 }
+
 .couting-num {
-    font-size: 45px;
+    margin-top: 15%;
+    margin-bottom: 3%;
+    font-size: 50px;
+    font-weight: 600;
 }
 .job-in-text {
-    font-size: 25px;
+    margin-bottom:50%;
+    font-size: 22px;
+}
+
+.job-background {
+    background: linear-gradient(90deg, #5C44F1 0%, #5C44F1 35%, #5C44F1 100%);
+    
+}
+
+.inter-background {
+    background: linear-gradient(90deg, #48A9F8 0%, #48A9F8 35%, #48A9F8 100%);
+    
 }
