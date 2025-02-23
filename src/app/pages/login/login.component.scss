@@ -1,0 +1,146 @@
+/* Ionic core styles */
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/padding.css';
+@import '@ionic/angular/css/float-elements.css';
+@import '@ionic/angular/css/text-alignment.css';
+@import '@ionic/angular/css/text-transformation.css';
+@import '@ionic/angular/css/flex-utils.css';
+
+/* Custom styles */
+:root {
+  --ion-color-primary: #6200ee;
+  --ion-background-color: #ffffff;
+  --ion-color-step-50: #f3f0ff;
+}
+
+.back-button {
+  --padding-start: 0;
+  --padding-end: 0;
+  margin: 16px 0;
+  height: 48px;
+  width: 48px;
+  --background: #f3f0ff;
+  --border-radius: 50%;
+}
+
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 24px 0;
+}
+
+.sign-in-container {
+  background: var(--ion-color-step-50);
+  border-radius: 24px;
+  padding: 24px;
+  margin-top: 24px;
+}
+
+.sign-in-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.sign-in-subtitle {
+  color: #666;
+  margin-bottom: 32px;
+}
+
+.custom-input {
+  --background: #ffffff;
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --border-radius: 50px;
+  margin-bottom: 16px;
+}
+
+.password-toggle {
+  font-size: 20px;
+  opacity: 0.7;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.login-button {
+  --background: var(--ion-color-primary);
+  --border-radius: 50px;
+  margin: 24px 0;
+  height: 48px;
+  font-weight: bold;
+}
+
+.forgot-password {
+  text-align: center;
+  margin: 24px 0;
+  color: #666;
+}
+
+.reset-link {
+  color: var(--ion-color-primary);
+  text-decoration: none;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+.divider {
+  text-align: center;
+  position: relative;
+  margin: 32px 0;
+  color: #666;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 1px;
+  background: #ddd;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.social-button {
+  --border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  --padding-start: 0;
+  --padding-end: 0;
+  --border-color: #ddd;
+}
+
+.social-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.social-button ion-icon {
+  font-size: 24px;
+  color: #1877f2;
+}
+
+.create-account {
+  --color: var(--ion-color-primary);
+  font-weight: bold;
+  height: 48px;
+  --background: rgba(98, 0, 238, 0.1);
+  --border-radius: 50px;
+}

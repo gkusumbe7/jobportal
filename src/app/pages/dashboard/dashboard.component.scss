@@ -1,131 +1,148 @@
-.userprofile-div {
-     border: 1px solid black;
-    display: flex;
-    color: white;
-    justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 60px;
-    padding-bottom: 50px;
-    background: linear-gradient(90deg, #40189D 0%, rgb(53, 53, 192) 35%, #572AC1 100%);
-    border-bottom-right-radius: 10%;
-    border-bottom-left-radius: 10%;
-    border: 1px solid black;
+/* Ionic core styles */
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/padding.css';
+@import '@ionic/angular/css/float-elements.css';
+@import '@ionic/angular/css/text-alignment.css';
+@import '@ionic/angular/css/text-transformation.css';
+@import '@ionic/angular/css/flex-utils.css';
+
+:root {
+  --ion-color-primary: #6200ee;
+  --ion-background-color: #f8f9fa;
+  --ion-tab-bar-background: #ffffff;
+  --ion-tab-bar-color: #666666;
+  --ion-tab-bar-color-selected: var(--ion-color-primary);
 }
 
-
-.user-img {
-    border-radius: 30%;
-    height: 72px;
-    width: 70px;
+/* Header styles */
+.header {
+  background: var(--ion-color-primary);
+  padding: 2rem 1rem;
+  border-radius: 0 0 24px 24px;
 }
 
-.container {
-     border: 1px solid black;
-    position: relative;
-    height:fit-content;
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 0 1rem;
+}
+
+.greeting {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.username {
+  margin: 4px 0 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ion-avatar {
+  width: 48px;
+  height: 48px;
+}
+
+/* Search bar styles */
+.search-bar {
+  margin-top: 1rem;
+  padding: 0 1rem;
 }
 
 .custom-searchbar {
-    border: 1px solid black;
-    position: absolute;
-    top: 94%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    --border-radius: 35px;
-    --background: white;
+  --background: white;
+  --border-radius: 50px;
+  --box-shadow: none;
+  --placeholder-color: #666;
+  --icon-color: #666;
 }
 
-.jobappInter {
-    
-     border: 1px solid black;
-    margin-top: 10%;
-     border: 1px solid black;
-    margin-inline: 10%;
-    display: flex;
-    justify-content: space-between;
-}
-.job-in {
-    color: white;
-     border: 1px solid black;
-    border-radius: 10%;
-    padding: 10px;
-    width: 44%;
-    box-shadow: 0 4px 10px rgba(39, 20, 20, 0.2), 0 0 15px rgba(43, 192, 38, 0.3); /* Multiple shadows */
-    background-color: #fff;
+/* Stats cards */
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 0 1rem;
+  margin-top: -2rem;
 }
 
-.couting-num {
-    margin-top: 15%;
-    margin-bottom: 3%;
-    font-size: 50px;
-    font-weight: 600;
-}
-.job-in-text {
-    margin-bottom:50%;
-    font-size: 22px;
+.stats-card {
+  margin: 0;
+  padding: 1rem;
+  border-radius: 16px;
+  color: white;
 }
 
-.job-background {
-    background: linear-gradient(90deg, #5C44F1 0%, #5C44F1 35%, #5C44F1 100%);
-    
+.stats-card.primary {
+  --background: var(--ion-color-primary);
 }
 
-.inter-background {
-    background: linear-gradient(90deg, #48A9F8 0%, #48A9F8 35%, #48A9F8 100%);
-    
-}
-.categories {
-    margin: 5%;
+.stats-card.secondary {
+  --background: #4a90e2;
 }
 
-.categories-items {
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
-}
-.categories-item {
-    border: 1px solid black;
-    border-radius: 20%;
-    box-shadow: 0 4px 10px rgba(198, 38, 38, 0.2), 0 0 15px rgba(43, 192, 38, 0.3); /* Multiple shadows */
-    
-}
-.categories-text {
-    font-size: 26px;
+.stats-content h2 {
+  font-size: 32px;
+  margin: 0;
+  font-weight: bold;
 }
 
-.job-img {
-    border: 1px solid violet;
-    height:100px;
+.stats-content p {
+  margin: 8px 0 0;
+  font-size: 14px;
+  opacity: 0.8;
 }
 
-.job-card {
-    border: 1px solid black;
-    // width: 50%;
-    display: flex;
-    // justify-content: space-between;
+/* Categories */
+.section {
+  padding: 1.5rem 1rem;
 }
 
-
-.recomended-card {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    border: 1px solid black;
-    box-shadow: 0 4px 10px rgba(39, 20, 20, 0.2), 0 0 15px rgba(43, 192, 38, 0.3); /* Multiple shadows */
-    
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 1rem;
 }
 
-.job-img {
-    margin-top: 10px;
-    border-radius: 10%;
-    padding: 2px;
-    background-color: #572AC1;
-    border: 1px solid rgb(35, 5, 10);
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
-.rec-text { 
-display:block;
- border: 1px solid black;
+.category-item {
+  background: white;
+  border-radius: 16px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.category-item ion-icon {
+  font-size: 24px;
+  color: var(--ion-color-primary);
+}
+
+/* Tab bar */
+ion-tab-bar {
+  --border: none;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
+  padding: 8px 0;
+}
+
+ion-tab-button {
+  --padding-top: 8px;
+  --padding-bottom: 8px;
+}
+
+ion-tab-button[selected] {
+  --color: var(--ion-color-primary);
 }

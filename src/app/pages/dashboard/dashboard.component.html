@@ -1,81 +1,67 @@
-<div class="container">
-  <div class="userprofile-div">
-    <div>
-      <p>Good Morning</p>
-      <h2>Ganesh Kusumbe</h2>
-    </div>
-    <div>
-      <img class="user-img" src="../../../assets/profileImg.jpeg" alt="userProfile">
-    </div>
-  </div>
- <ion-searchbar class="custom-searchbar" placeholder="Search job here.."></ion-searchbar> 
-</div>
-
-<div class="jobappInter">
-    <div class="job-in job-background">
-      <p class="couting-num">9</p>
-      <p class="job-in-text">Job Applied</p>
-    </div>
-
-    <div class="job-in inter-background">
-      <p class="couting-num">9</p>
-      <p class="job-in-text" >Interviews</p>
-    </div>
-</div>
-
-<div class="categories">
-  <p class="categories-text"> Categories</p>
-  <div class="categories-items">
-    <ion-item class="categories-item">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m422-232 207-248H469l29-227-185 267h139l-30 208ZM320-80l40-280H160l360-520h80l-40 320h240L400-80h-80Zm151-390Z"/></svg>
-    </ion-item>
-    <ion-item class="categories-item">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m490-527 37 37 217-217-37-37-217 217ZM200-200h37l233-233-37-37-233 233v37Zm355-205L405-555l167-167-29-29-219 219-56-56 218-219q24-24 56.5-24t56.5 24l29 29 50-50q12-12 28.5-12t28.5 12l93 93q12 12 12 28.5T828-678L555-405ZM270-120H120v-150l285-285 150 150-285 285Z"/></svg>
-    </ion-item>
-    <ion-item class="categories-item">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"/></svg>
-    </ion-item>
-    <ion-item class="categories-item">
-      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m480-80-40-120H160q-33 0-56.5-23.5T80-280v-520q0-33 23.5-56.5T160-880h240l35 120h365q35 0 57.5 22.5T880-680v520q0 33-22.5 56.5T800-80H480ZM286-376q69 0 113.5-44.5T444-536q0-8-.5-14.5T441-564H283v62h89q-8 28-30.5 43.5T287-443q-39 0-67-28t-28-69q0-41 28-69t67-28q18 0 34 6.5t29 19.5l49-47q-21-22-50.5-34T286-704q-67 0-114.5 47.5T124-540q0 69 47.5 116.5T286-376Zm268 20 22-21q-14-17-25.5-33T528-444l26 88Zm50-51q28-33 42.5-63t19.5-47H507l12 42h40q8 15 19 32.5t26 35.5Zm-84 287h280q18 0 29-11.5t11-28.5v-520q0-18-11-29t-29-11H447l47 162h79v-42h41v42h146v41h-51q-10 38-30 74t-47 67l109 107-29 29-108-108-36 37 32 111-80 80Z"/></svg>
-    </ion-item>
-  </div>
-<div>
- 
-
-<div>
-  <p class="categories-text" >Recomended Jobs</p>
-  <div class="recomended-card">
-       <div class="rec-img" >
-          <ion-img class="job-img"
-               src="https://bcassetcdn.com/public/blog/wp-content/uploads/2022/11/09183937/denside-logo-design-d-letter-logo-concept-by-abdul-gaffar-dribbble.png"
-              alt="The Wisconsin State Capitol building in Madison, WI at night"
-               >
-          </ion-img>
+<ion-app>
+  <ion-content>
+    <!-- Header -->
+    <div class="header">
+      <div class="header-content">
+        <div>
+          <p class="greeting">Good Morning</p>
+          <h1 class="username">Henry Kanwil</h1>
         </div>
+        <ion-avatar>
+          <img src="https://i.pravatar.cc/100" alt="Profile" />
+        </ion-avatar>
+      </div>
+      
+      <!-- Search Bar -->
+      <div class="search-bar">
+        <ion-searchbar placeholder="Search job here..." class="custom-searchbar"></ion-searchbar>
+      </div>
+    </div>
 
-        <div class="rec-text">
-          <h2>Software Engineer</h2>
-          <h5>Jakarta, Indonesia</h5>
-          <h6>$500 - $1,000</h6>
+    <!-- Stats Cards -->
+    <div class="stats-grid">
+      <ion-card class="stats-card primary">
+        <div class="stats-content">
+          <h2>29</h2>
+          <p>Jobs Applied</p>
         </div>
-  </div>
-</div>
+      </ion-card>
+      <ion-card class="stats-card secondary">
+        <div class="stats-content">
+          <h2>3</h2>
+          <p>Interviews</p>
+        </div>
+      </ion-card>
+    </div>
 
-<div>
-  <p class="categories-text" >Recent Jobs</p>
-  <div class="recomended-card">
-       <div class="rec-img" >
-          <ion-img class="job-img"
-               src="https://bcassetcdn.com/public/blog/wp-content/uploads/2022/11/09183937/denside-logo-design-d-letter-logo-concept-by-abdul-gaffar-dribbble.png"
-              alt="The Wisconsin State Capitol building in Madison, WI at night"
-               >
-          </ion-img>
+    <!-- Categories -->
+    <div class="section">
+      <h2 class="section-title">Categories</h2>
+      <div class="categories-grid">
+        <div class="category-item" *ngFor="let category of categories">
+          <ion-icon [name]="category.icon"></ion-icon>
         </div>
+      </div>
+    </div>
 
-        <div class="rec-text">
-          <h2>Software Engineer</h2>
-          <h5>Jakarta, Indonesia</h5>
-          <h6>$500 - $1,000</h6>
-        </div>
-  </div>
-</div>
+    <!-- Bottom Navigation -->
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="home" selected>
+        <ion-icon name="home"></ion-icon>
+        <ion-label>Home</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="interviews">
+        <ion-icon name="calendar"></ion-icon>
+        <ion-label>Interviews</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="messages">
+        <ion-icon name="mail"></ion-icon>
+        <ion-label>Messages</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="profile">
+        <ion-icon name="person"></ion-icon>
+        <ion-label>Profile</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-content>
+</ion-app>
