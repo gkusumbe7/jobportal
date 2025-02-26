@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
-import { dashboardComponent } from "./pages/dashboard/dashboard.component";
+import { ApplyformsComponent } from "./pages/applyforms/applyforms.component";
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  imports: [ dashboardComponent],
+  imports: [ApplyformsComponent],
 })
 export class AppComponent {
   constructor() {}

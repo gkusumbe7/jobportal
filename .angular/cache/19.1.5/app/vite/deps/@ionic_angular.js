@@ -28,11 +28,7 @@ import {
   IonRouterOutlet,
   IonTabs,
   IonicRouteStrategy,
-  MaxValidator,
   MenuController,
-  MinValidator,
-  NG_VALIDATORS,
-  NG_VALUE_ACCESSOR,
   NavController,
   NavParams,
   OverlayBaseController,
@@ -43,20 +39,28 @@ import {
   provideComponentInputBinding,
   raf,
   setIonicClasses
-} from "./chunk-YN3Q6OWA.js";
+} from "./chunk-Q3E6VVPA.js";
+import "./chunk-6EJTX62D.js";
 import "./chunk-E3VFUNW2.js";
 import "./chunk-4AF7KAXZ.js";
 import {
   ActivatedRoute,
   Router
-} from "./chunk-5PHIDCDG.js";
+} from "./chunk-BRHMPBWS.js";
+import "./chunk-6B3B36WK.js";
+import {
+  MaxValidator,
+  MinValidator,
+  NG_VALIDATORS,
+  NG_VALUE_ACCESSOR
+} from "./chunk-NZWO77GS.js";
 import {
   CommonModule,
   DOCUMENT,
   Location,
   NgIf,
   NgTemplateOutlet
-} from "./chunk-J6HWSTYH.js";
+} from "./chunk-HYPXKWQW.js";
 import {
   APP_INITIALIZER,
   Attribute,
@@ -119,14 +123,13 @@ import {
   __generator,
   __spreadArray
 } from "./chunk-7IZRYL2Z.js";
-import "./chunk-HSBYCB43.js";
-import "./chunk-GZAS4ZZK.js";
-import "./chunk-DCJVW2XW.js";
+import "./chunk-4IEIXIM5.js";
+import "./chunk-FPOHFQVD.js";
 import "./chunk-VEV5BJ2D.js";
 import "./chunk-JHUVP4MF.js";
 import "./chunk-XN5KYYNJ.js";
-import "./chunk-OKPK4C3D.js";
 import "./chunk-ACUVEYEP.js";
+import "./chunk-OKPK4C3D.js";
 import {
   __spreadProps,
   __spreadValues
