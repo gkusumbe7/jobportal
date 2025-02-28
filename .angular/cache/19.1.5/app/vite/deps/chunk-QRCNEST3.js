@@ -1,11 +1,41 @@
 import {
+  LIFECYCLE_DID_ENTER,
+  LIFECYCLE_DID_LEAVE,
+  LIFECYCLE_WILL_ENTER,
+  LIFECYCLE_WILL_LEAVE,
+  LIFECYCLE_WILL_UNLOAD,
+  createAnimation
+} from "./chunk-VPBMHJDY.js";
+import {
+  printIonWarning
+} from "./chunk-VEV5BJ2D.js";
+import {
+  addEventListener,
+  componentOnReady,
+  focusVisibleElement,
+  getElementRoot,
+  removeEventListener
+} from "./chunk-OKPK4C3D.js";
+import {
+  BACKDROP_NO_SCROLL
+} from "./chunk-4AF7KAXZ.js";
+import {
   MENU_BACK_BUTTON_PRIORITY,
   OVERLAY_BACK_BUTTON_PRIORITY,
   shouldUseCloseWatcher
 } from "./chunk-E3VFUNW2.js";
 import {
-  BACKDROP_NO_SCROLL
-} from "./chunk-4AF7KAXZ.js";
+  config,
+  getIonMode,
+  getPlatforms,
+  isPlatform
+} from "./chunk-JHUVP4MF.js";
+import {
+  doc
+} from "./chunk-ACUVEYEP.js";
+import {
+  NgControl
+} from "./chunk-V3SXAQGB.js";
 import {
   ActivatedRoute,
   ChildrenOutletContexts,
@@ -14,15 +44,12 @@ import {
   Router,
   RouterLink,
   UrlSerializer
-} from "./chunk-BRHMPBWS.js";
-import {
-  NgControl
-} from "./chunk-NZWO77GS.js";
+} from "./chunk-I7ZJQ7NP.js";
 import {
   DOCUMENT,
   Location,
   LocationStrategy
-} from "./chunk-HYPXKWQW.js";
+} from "./chunk-M6KX5WMZ.js";
 import {
   ApplicationRef,
   Attribute,
@@ -68,37 +95,10 @@ import {
   ɵɵloadQuery,
   ɵɵqueryRefresh,
   ɵɵviewQuery
-} from "./chunk-HEDZLLP3.js";
+} from "./chunk-HEUHVWJV.js";
 import {
   __decorate
 } from "./chunk-7IZRYL2Z.js";
-import {
-  LIFECYCLE_DID_ENTER,
-  LIFECYCLE_DID_LEAVE,
-  LIFECYCLE_WILL_ENTER,
-  LIFECYCLE_WILL_LEAVE,
-  LIFECYCLE_WILL_UNLOAD,
-  createAnimation
-} from "./chunk-FPOHFQVD.js";
-import {
-  printIonWarning
-} from "./chunk-VEV5BJ2D.js";
-import {
-  config,
-  getIonMode,
-  getPlatforms,
-  isPlatform
-} from "./chunk-JHUVP4MF.js";
-import {
-  doc
-} from "./chunk-ACUVEYEP.js";
-import {
-  addEventListener,
-  componentOnReady,
-  focusVisibleElement,
-  getElementRoot,
-  removeEventListener
-} from "./chunk-OKPK4C3D.js";
 import {
   __async,
   __objRest,
@@ -3982,4 +3982,4 @@ export {
    * (C) Ionic http://ionicframework.com - MIT License
    *)
 */
-//# sourceMappingURL=chunk-Q3E6VVPA.js.map
+//# sourceMappingURL=chunk-QRCNEST3.js.map

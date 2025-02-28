@@ -1,3 +1,5 @@
+<ion-app>
+  
 <ion-header>
   <ion-toolbar>
     <ion-buttons slot="start">
@@ -28,9 +30,9 @@
 
     <!-- Job Filters -->
     <div class="job-filters">
-      <ion-chip color="primary" *ngFor="let tag of job.tags">
+      <!-- <ion-chip color="primary" *ngFor="let tag of job.tags">
         <ion-label>{{ tag }}</ion-label>
-      </ion-chip>
+      </ion-chip> -->
     </div>
 
     <!-- Salary & Location -->
@@ -55,12 +57,12 @@
   <!-- Job Description -->
   <div class="job-description">
     <h3>Job Description</h3>
-    <p>{{ job.description }}</p>
-    <ul>
+    <!-- <p>{{ job.description }}</p> -->
+    <!-- <ul>
       <li *ngFor="let point of job.requirements">
         <ion-icon name="checkmark-circle-outline"></ion-icon> {{ point }}
-      </li>
-    </ul>
+      </li> -->
+    <!-- </ul> -->
   </div>
 
   <!-- Apply Button -->
@@ -71,3 +73,6 @@
   </div>
 
 </ion-content>
+<app-footer></app-footer>
+
+</ion-app>
