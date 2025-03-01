@@ -37,32 +37,64 @@
     <!-- Categories -->
     <div class="section">
       <h2 class="section-title">Categories</h2>
-      <div class="categories-grid">
-        <!-- <div class="category-item" *ngFor="let categ ory of categories">
-          <ion-icon [name]="category.icon"></ion-icon>
-        </div> -->
+      <div class="categories-section">
+        <a routerLink=""> <img src="../../../assets/ink_pen.svg" alt="inkpen" class="categories-section-img"> </a> 
+        <a routerLink=""> <img src="../../../assets/settings.svg" alt="setting" class="categories-section-img"></a>      
+        <a routerLink=""> <img src="../../../assets/translate.svg" alt="translate" class="categories-section-img"></a> 
+        <a routerLink=""> <img src="../../../assets/electric_bolt.svg" alt="electricbolt" class="categories-section-img"> </a> 
+      </div>
+      <div class="categories-section">
+        <a routerLink=""> <img src="../../../assets/ink_pen.svg" alt="inkpen" class="categories-section-img"> </a> 
+        <a routerLink=""> <img src="../../../assets/settings.svg" alt="setting" class="categories-section-img"></a>      
+        <a routerLink=""> <img src="../../../assets/translate.svg" alt="translate" class="categories-section-img"></a> 
+        <a routerLink=""> <img src="../../../assets/electric_bolt.svg" alt="electricbolt" class="categories-section-img"> </a> 
       </div>
     </div>
 
-    <!-- Bottom Navigation -->
-    <ion-tab-bar slot="bottom">
-      <ion-tab-button tab="home" selected>
-        <ion-icon name="home"></ion-icon>
-        <ion-label>Home</ion-label>
-      </ion-tab-button>
-      <ion-tab-button tab="interviews">
-        <ion-icon name="calendar"></ion-icon>
-        <ion-label>Interviews</ion-label>
-      </ion-tab-button>
-      <ion-tab-button tab="messages">
-        <ion-icon name="mail"></ion-icon>
-        <ion-label>Messages</ion-label>
-      </ion-tab-button>
-      <ion-tab-button tab="profile">
-        <ion-icon name="person"></ion-icon>
-        <ion-label>Profile</ion-label>
-      </ion-tab-button>
-    </ion-tab-bar>
+    <div class="section">
+      <h2 class="section-title">Recomended Jobs</h2>
+      <ion-card class="ion-card-rec">	
+        <div>
+          <img src="../../../assets/images.png" alt="companyImg" class="company-img">
+        </div>
+        <div class="company-details">
+          <span>ITC Pvt Ltd.</span>
+          <span>Software Engineer</span>
+          <span>Jakarta, Indonesia</span>
+          <span>$500 - $1,000</span>
+        </div>
+      </ion-card>
+    </div>
+    
+    <div class="section">
+      <h2 class="section-title">Recent Jobs</h2>
+      <ion-card>	  
+
+        <ion-card class="ion-card-job">	
+          <div>
+            <img src="../../../assets/images.png" alt="companyImg" class="company-img">
+          </div>
+          <div class="company-details">
+            <span>ITC Pvt Ltd.</span>
+            <span>Software Engineer</span>
+            <span>Jakarta, Indonesia</span>
+            <span>$500 - $1,000</span>
+          </div>
+        </ion-card>
+        <ion-card class="ion-card-job">	
+          <div>
+            <img src="../../../assets/images.png" alt="companyImg" class="company-img">
+          </div>
+          <div class="company-details">
+            <span>ITC Pvt Ltd.</span>
+            <span>Software Engineer</span>
+            <span>Jakarta, Indonesia</span>
+            <span>$500 - $1,000</span>
+          </div>
+        </ion-card>
+      </ion-card>	
+    </div>
+    
   </ion-content>
   <app-footer></app-footer>
 </ion-app>

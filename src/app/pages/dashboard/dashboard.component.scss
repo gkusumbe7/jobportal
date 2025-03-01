@@ -17,6 +17,10 @@
   --ion-tab-bar-color-selected: var(--ion-color-primary);
 }
 
+
+ion-content {
+  --background: #ffffff !important; /* Ensures the background is white */
+}
 /* Header styles */
 .header {
   background: var(--ion-color-primary);
@@ -80,40 +84,49 @@ ion-avatar {
 }
 
 .stats-card.primary {
-  --background: var(--ion-color-primary);
+  --background: rgb(22, 171, 212);
 }
 
 .stats-card.secondary {
-  --background: #4a90e2;
+  --background: #46acff;
+}
+.stats-content{
+  height:120px;
 }
 
 .stats-content h2 {
+  margin: 10px 0 0;
   font-size: 32px;
   margin: 0;
   font-weight: bold;
+  
 }
 
 .stats-content p {
-  margin: 8px 0 0;
-  font-size: 14px;
-  opacity: 0.8;
+  margin: 12px 0 0;
+  font-size: 18px;
 }
 
 /* Categories */
 .section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: black;
   padding: 1.5rem 1rem;
 }
 
 .section-title {
   font-size: 20px;
-  font-weight: bold;
+  font-weight:500;
   margin: 0 0 1rem;
 }
 
-.categories-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+.categories-section {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-around;
+  background-color: white;
 }
 
 .category-item {
@@ -129,6 +142,60 @@ ion-avatar {
 .category-item ion-icon {
   font-size: 24px;
   color: var(--ion-color-primary);
+}
+
+.categories-section-img {
+  border: 1px solid black;
+  height: 38px;
+  width: 38px;
+  padding: 2px;
+  border-radius: 12%;
+  
+}
+
+.section-rec {
+  color: black;
+}
+
+.section-rec-card {
+  border-radius: 10%;
+}
+.company-img {
+  padding:5px;
+  border: 1px solid rgb(49, 225, 216);
+  border-radius: 50%;
+  width: 110px;
+}
+.ion-card-rec {
+  padding: 10px;
+  color: black;
+  display: flex;  
+  gap:5%;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(221, 237, 243);
+}
+
+.ion-card-job {
+  padding: 10px;
+  color: black;
+  display: flex;  
+  // gap:5%;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(221, 237, 243);
+}
+
+.company-details {
+  font-size: 18px; 
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+  
+}
+ion-item {
+  color:black;
+  --background: #ffffff !important; /* Ensures the background is white */
 }
 
 /* Tab bar */
