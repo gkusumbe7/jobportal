@@ -186,6 +186,17 @@ ion-avatar {
   background-color: rgb(221, 237, 243);
 }
 
+.ion-card-recentjob {
+  padding: 10px;
+  color: black;
+  display: flex;  
+  gap:5%;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+
 .company-details {
   font-size: 18px; 
   display: flex;
@@ -193,6 +204,18 @@ ion-avatar {
   gap:5px;
   
 }
+
+
+.ion-card-job {
+  padding: 10px;
+  color: black;
+  display: flex;  
+  gap:5%;
+  align-items: center;
+  flex-direction: row;
+  // background-color: rgb(221, 237, 243);
+}
+
 ion-item {
   color:black;
   --background: #ffffff !important; /* Ensures the background is white */
