@@ -2,12 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
 import { FooterComponent } from "../../shared/footer/footer.component";
+import { MatIconModule } from '@angular/material/icon'; // Import Material Icons
 
 @Component({
   selector: 'app-jobdetails',
   templateUrl: './jobdetails.component.html',
   styleUrls: ['./jobdetails.component.scss'],
-  imports: [IonicModule, FooterComponent]
+  imports: [IonicModule, FooterComponent ,MatIconModule]
 })
 export class JobdetailsComponent  implements OnInit {
 

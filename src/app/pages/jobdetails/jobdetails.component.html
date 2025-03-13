@@ -5,7 +5,7 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
-    <ion-title>Details</ion-title>
+    <ion-title> Job Details</ion-title>
     <ion-buttons slot="end">
       <ion-button fill="clear">
         <ion-icon name="bookmark-outline"></ion-icon>
@@ -16,63 +16,75 @@
 
 <ion-content>
 
-  <!-- Job Info -->
-  <div class="job-container">
-    <div class="job-header">
-      <div>
-        <h3>{{ job.company }}</h3>
-        <h2>{{ job.title }}</h2>
-      </div>
-      <ion-thumbnail>
-        <img [src]="job.logo" alt="Company Logo">
-      </ion-thumbnail>
-    </div>
-
-    <!-- Job Filters -->
-    <div class="job-filters">
-      <!-- <ion-chip color="primary" *ngFor="let tag of job.tags">
-        <ion-label>{{ tag }}</ion-label>
-      </ion-chip> -->
-    </div>
-
-    <!-- Salary & Location -->
-    <div class="job-details">
-      <div class="detail">
-        <ion-icon name="cash-outline"></ion-icon>
+  <ion-card class="job-card">
+    <div class="job-heading">
         <div>
-          <h4>Salary</h4>
-          <p>{{ job.salary }}</p>
+          <h5>Highspeed Studios</h5>
+          <h3>Senior Software Engineer</h3>
         </div>
-      </div>
-      <div class="detail">
-        <ion-icon name="location-outline"></ion-icon>
-        <div>
-          <h4>Location</h4>
-          <p>{{ job.location }}</p>
+        <div class="companyImg">
+          <img src="../../../assets/images.png" alt="">
         </div>
-      </div>
+    </div>
+    <div class="job-time">
+      <div class="job-time-type">FullTime</div>
+      <div class="job-time-type">Remote</div>
+      <div class="job-time-type">Hourly</div>
+    </div>
+</ion-card>
+
+<ion-card color="">
+  <div>
+    <div>
+      <img src="../../../assets/image.png" alt="">s
+    </div>
+    <div>
+      <p>Salary</p>
+      <p>$500 - $1,000/monthly</p>
     </div>
   </div>
 
-  <!-- Job Description -->
-  <div class="job-description">
-    <h3>Job Description</h3>
-    <!-- <p>{{ job.description }}</p> -->
-    <!-- <ul>
-      <li *ngFor="let point of job.requirements">
-        <ion-icon name="checkmark-circle-outline"></ion-icon> {{ point }}
-      </li> -->
-    <!-- </ul> -->
+  <div>
+    <div>
+        <ion-icon name="Location"></ion-icon>
+    </div>
+    <div>
+      <p>Location</p>
+      <p>Medan, Indonesia</p>
+    </div>
+  </div>
+  
+</ion-card>
+  
+<ion-card>
+  <h4>Job Description</h4>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  </p>
+  <ul>
+    <li>Sed ut perspiciatis unde omnis </li>
+    <li>Doloremque laudantium</li>
+    <li>Architecto beatae vitae dicta </li>
+    <li>Sunt explicabo</li>
+  </ul>
+</ion-card>
+
+<ion-card>
+  <div>
+    <ion-button >
+      <ion-icon slot="icon-only" name="bookmark"></ion-icon>
+      
+    </ion-button>  
+  </div>
+  
+  <div>
+    <p>APPLY JOB</p>
   </div>
 
-  <!-- Apply Button -->
-  <div class="bottom-bar">
-    <ion-button expand="full" shape="round" color="primary">
-      APPLY JOB
-    </ion-button>
-  </div>
+</ion-card>
 
 </ion-content>
+
 <app-footer></app-footer>
 
 </ion-app>

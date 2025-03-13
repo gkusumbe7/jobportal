@@ -1,61 +1,48 @@
-.job-container {
-    padding: 15px;
-  }
-  
-  .job-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .job-filters {
-    display: flex;
-    gap: 10px;
-    margin-top: 10px;
-  }
-  
-  .job-details {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  
-  .detail {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .detail ion-icon {
-    font-size: 24px;
-    color: #6a5acd;
-  }
-  
-  .job-description {
-    margin-top: 20px;
-    padding: 15px;
-  }
-  
-  .job-description ul {
-    padding-left: 20px;
-  }
-  
-  .job-description li {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 5px;
-  }
-  
-  .bottom-bar {
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-  }
-  
-  ion-button {
-    font-weight: bold;
-  }
-  
+
+ion-content {
+  --background: white;
+  --color: black;
+}
+ion-header ion-toolbar  {
+  --background:white;
+  --color: black;
+}
+
+ion-card {
+  background-color: white;
+  color: black;
+}
+
+.job-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-heading {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyImg {
+  height: 120px;
+  width: 120px;
+}
+
+.job-time {
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-evenly;
+  padding: 14px;
+  gap: 10px;
+}
+
+.job-time-type {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius:  10px 10px 10px 10px ;
+  background-color: rgb(91, 115, 221);
+  color: rgb(242, 238, 230);
+  font-weight: 800;
+}
+
