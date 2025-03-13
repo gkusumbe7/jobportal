@@ -46,3 +46,46 @@ ion-card {
   font-weight: 800;
 }
 
+.salary-location-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:10%;
+  margin:10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.sl-img {
+  height: 45px;
+  width: 45px;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 8px;
+  
+}
+
+.job-description-card {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: black;
+}
+
+.apply-job-card {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 80px;
+}
+
+.save-img {
+  height: 60px;
+  width: 68px;
+}
+
+.apply-button {
+  height: 20px;
+  width: fit-content;
+}
