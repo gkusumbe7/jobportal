@@ -1,5 +1,5 @@
 <ion-app>
-  <ion-content>
+  <ion-content >
     <!-- Header -->
     <div class="header">
       <div class="header-content">
@@ -11,11 +11,10 @@
           <img src="https://i.pravatar.cc/100" alt="Profile" />
         </ion-avatar>
       </div>
-      
-      <!-- Search Bar -->
-      <div class="search-bar">
-        <ion-searchbar placeholder="Search job here..." class="custom-searchbar"></ion-searchbar>
-      </div>
+    </div>
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <ion-searchbar placeholder="Search job here..." class="custom-searchbar"></ion-searchbar>
     </div>
 
     <!-- Stats Cards -->
@@ -35,7 +34,7 @@
     </div>
 
     <!-- Categories -->
-    <div class="section">
+    <!-- <div class="section">
       <h2 class="section-title">Categories</h2>
       <div class="categories-section">
         <a routerLink=""> <img src="../../../assets/ink_pen.svg" alt="inkpen" class="categories-section-img"> </a> 
@@ -49,31 +48,45 @@
         <a routerLink=""> <img src="../../../assets/translate.svg" alt="translate" class="categories-section-img"></a> 
         <a routerLink=""> <img src="../../../assets/electric_bolt.svg" alt="electricbolt" class="categories-section-img"> </a> 
       </div>
-    </div>
+    </div> -->
 
     <div class="section">
-      <h2 class="section-title">Recomended Jobs</h2>
-      <ion-card class="ion-card-rec">	
+      <div class="rec-job-div">
         <div>
-          <img src="../../../assets/images.png" alt="companyImg" class="company-img">
+          <h2 class="section-title">Recomended Jobs</h2>
         </div>
+        <div class="rec-job-more">
+          <div class="sm-div"></div>
+          <div class="md-div"></div>
+          <div class="lg-div"></div>
+        </div>  
+      </div>
+      <ion-card class="ion-card-rec">	
+          <img src="../../../assets/images.png" alt="companyImg" class="company-img">
+        
         <div class="company-details">
-          <span>ITC Pvt Ltd.</span>
-          <span>Software Engineer</span>
-          <span>Jakarta, Indonesia</span>
-          <span>$500 - $1,000</span>
+          <!-- <span>ITC Pvt Ltd.</span> -->
+          <span class="span-company-text">Software Engineer</span>
+          <span >Jakarta, Indonesia</span>
+          <span class="span-company-salary">$ 500 - $ 1,000</span>
         </div>
       </ion-card>
     </div>
     
-    <div class="section">
-      <h2 class="section-title">Recent Jobs</h2>
+    <div class="section"><div class="rec-job-div">
+      <div>
+        <h2 class="section-title">Recent Jobs</h2>
+      </div>
+      <div class="rec-job-more">
+        <span>More</span>
+      </div>  
+    </div>
       <div class="ion-card-recjob">	  
         <div class="ion-card-recentjob">	
-          <div>
-            <img src="../../../assets/images.png" alt="companyImg" class="company-img-recentjob">
+          <div class="company-img-recentjob">
+            <img src="../../../assets/images.png" alt="companyImg" >
           </div>
-          <div class="company-details">
+          <div class="company-details-recentJob">
             <span>ITC Pvt Ltd.</span>
             <span>Software Engineer</span>
             <span>Jakarta, Indonesia</span>

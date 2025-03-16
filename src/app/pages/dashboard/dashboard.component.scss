@@ -1,39 +1,27 @@
-/* Ionic core styles */
-@import '@ionic/angular/css/core.css';
-@import '@ionic/angular/css/normalize.css';
-@import '@ionic/angular/css/structure.css';
-@import '@ionic/angular/css/typography.css';
-@import '@ionic/angular/css/padding.css';
-@import '@ionic/angular/css/float-elements.css';
-@import '@ionic/angular/css/text-alignment.css';
-@import '@ionic/angular/css/text-transformation.css';
-@import '@ionic/angular/css/flex-utils.css';
 
-:root {
-  --ion-color-primary: #6200ee;
-  --ion-background-color: #f8f9fa;
-  --ion-tab-bar-background: #ffffff;
-  --ion-tab-bar-color: #666666;
-  --ion-tab-bar-color-selected: var(--ion-color-primary);
-}
 
 
 ion-content {
-  --background: #ffffff !important; /* Ensures the background is white */
+  --background: #FBF6FF !important; /* Ensures the background is white */
+  
 }
+
 /* Header styles */
 .header {
-  background: var(--ion-color-primary);
+  background:linear-gradient(to bottom, #40189D, #7153b6);
+  ;
   padding: 2rem 1rem;
   border-radius: 0 0 24px 24px;
 }
 
 .header-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   color: white;
   padding: 0 1rem;
+  margin-bottom:80px;
+
 }
 
 .greeting {
@@ -55,25 +43,34 @@ ion-avatar {
 
 /* Search bar styles */
 .search-bar {
-  margin-top: 1rem;
-  padding: 0 1rem;
+  color: black;
+  display:absolute;
+  margin-top: -2rem;
+  padding: 0 2rem;
 }
 
 .custom-searchbar {
   --background: white;
-  --border-radius: 50px;
+  --border-radius: 90px;
   --box-shadow: none;
   --placeholder-color: #666;
   --icon-color: #666;
+  --color:black;
+
 }
 
 /* Stats cards */
 .stats-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   padding: 0 1rem;
-  margin-top: -2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  // border: 1px solid black;
+  height: 24%;
 }
 
 .stats-card {
@@ -84,10 +81,14 @@ ion-avatar {
 }
 
 .stats-card.primary {
+  width: 40%;
+  height: 90%;
   --background: rgb(22, 171, 212);
 }
 
 .stats-card.secondary {
+  width: 40%;
+  height: 90%;
   --background: #46acff;
 }
 .stats-content{
@@ -161,20 +162,85 @@ ion-avatar {
   border-radius: 10%;
 }
 .company-img {
-  padding:5px;
-  border: 1px solid rgb(49, 225, 216);
-  border-radius: 50%;
-  width: 110px;
+  padding:2px;
+  border: 1px solid rgb(62, 163, 156);
+  border-radius: 20%;
+  width: 90px;
+}
+
+.company-details {
+  
+  font-size: 18px; 
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+
+.span-company-text {
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.rec-job-div {
+  display: flex;
+  flex-direction: row;
+  // border: 1px solid black;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.rec-job-more {
+  font-size: 20px;
+  color: #40189D;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  gap: 2px;
+  margin-right: 10px;
+}
+
+.sm-div {
+  width: 14px;
+  height: 7px;
+  border-radius: 10px;
+  background-color: #D6D6D6;
+}
+.md-div {
+  width: 16px;
+    height: 7px;
+    border-radius: 10px;
+    background-color: #D6D6D6;
+
+}
+.lg-div {
+  width: 24px;
+    height: 7px;
+    border-radius: 10px;
+  background-color: #40189D;
+}
+
+
+
+.span-company-salary {
+  margin-top:2px ;
+  font-weight:800;
+  color: #40189D;
+  font-size: 19px;
 }
 
 .ion-card-rec {
-  padding: 10px;
+  padding: 12px;
   color: black;
   display: flex;  
-  gap:5%;
+  gap:10%;
+  border-radius: 3%;
   align-items: center;
   flex-direction: row;
-  background-color: rgb(221, 237, 243);
+  background-color: #FFFFFF;
 }
 
 .ion-card-job {
@@ -191,7 +257,16 @@ ion-avatar {
   display: flex;  
   flex-direction: column;
   gap: 5px;
+  padding: 5px;
 } 
+
+.company-details-recentJob {
+  padding-top: 0%;
+  margin-top: 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
 .ion-card-recentjob {
   border: 1px solid black;
@@ -204,18 +279,12 @@ ion-avatar {
 }
 
 .company-img-recentjob {
-  padding:2px;
-  border: 1px solid rgb(49, 225, 216);
+  padding:0px;
+  border: 1px solid rgb(230, 238, 238);
   // border-radius:0%;
-  width: 110px;
+  width:70px;
 }
 
-.company-details {
-  font-size: 18px; 
-  display: flex;
-  flex-direction: column;
-  gap:5px;
-}
 
 
 .ion-card-job {
