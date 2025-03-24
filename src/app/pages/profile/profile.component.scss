@@ -1,25 +1,36 @@
 
-
+ion-content {
+  --background: #FBF6FF ;
+  --color: black;
+}
 .cover-container {
   position: relative;
   width: 100%;
 }
-
+mat-icon {
+    font-size: 44px;
+    height: 62px;
+    width: 68px;
+    border-radius: 76%;
+    border: 0.3px solid #a765dd;
+    padding: 6px;
+    box-shadow: 1px 2px #888888;
+}
 .cover-container img {
   width: 100%;
-  height: auto;
+  height: 200px;
   display: block;
 }
 
 .overlay-text {
   position: absolute;
-  top: 50%; /* Center vertically */
+  top: 33%; /* Center vertically */
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%);
   color: white;
   font-size: 1.5em;
   font-weight: bold;
-  background: rgba(0, 0, 0, 0.5);
+  background: black;
   padding: 10px 20px;
   border-radius: 5px;
 }
@@ -37,8 +48,8 @@
 .profile-div img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 30%;
+  border: 5px solid white;
 }
 
 /* User Info Styling */
@@ -49,7 +60,7 @@
 }
 
 .user-info p {
-  color: gray;
+  color: rgb(40, 25, 25);
   font-size: 18px;
   padding-inline: 2px;
 }
@@ -75,19 +86,24 @@
 // }
 
 .ion-card-resume {
-  background-color: #f7f8f6;  
+  padding: 10px;
+  color: white;
+  margin-inline: 26px;
+  background-color: #40189D;  
+  
 }
 
 .section-title {
   padding: 10px;
   font-size: 20px;
   font-weight:500;
-  margin: 0 0 1rem;
+  margin: 0px;
 }
 
 .resume-file-name {
   font-size: 17px;
   padding-inline: 18px;
+  margin-bottom: 4px;
 }
 
 .skill-list {

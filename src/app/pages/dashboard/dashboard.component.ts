@@ -4,11 +4,12 @@ import { IonicModule } from '@ionic/angular';
 import { FooterComponent } from "../../shared/footer/footer.component";
 import { MatIconModule } from '@angular/material/icon';
 
+import { Route , Router , RouterLink , RouterOutlet } from '@angular/router';
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.scss'],
-  imports: [IonicModule, FormsModule, FooterComponent , MatIconModule]
+  imports: [IonicModule, FormsModule, FooterComponent , MatIconModule ,RouterLink]
 })
 
 export class DashboardComponent  implements OnInit {
