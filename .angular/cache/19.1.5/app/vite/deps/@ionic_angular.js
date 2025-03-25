@@ -1,9 +1,9 @@
 import {
-  iosTransitionAnimation
-} from "./chunk-UWMSXM6I.js";
-import {
   mdTransitionAnimation
 } from "./chunk-3LV54IGZ.js";
+import {
+  iosTransitionAnimation
+} from "./chunk-UWMSXM6I.js";
 import {
   bootstrapLazy,
   componentOnReady,
@@ -39,7 +39,7 @@ import {
   provideComponentInputBinding,
   raf,
   setIonicClasses
-} from "./chunk-QRCNEST3.js";
+} from "./chunk-MNKR6H53.js";
 import "./chunk-2DZLMLQQ.js";
 import "./chunk-2FMJVB4M.js";
 import "./chunk-VPBMHJDY.js";
@@ -51,15 +51,15 @@ import "./chunk-JHUVP4MF.js";
 import "./chunk-XN5KYYNJ.js";
 import "./chunk-ACUVEYEP.js";
 import {
+  ActivatedRoute,
+  Router
+} from "./chunk-I7ZJQ7NP.js";
+import {
   MaxValidator,
   MinValidator,
   NG_VALIDATORS,
   NG_VALUE_ACCESSOR
 } from "./chunk-V3SXAQGB.js";
-import {
-  ActivatedRoute,
-  Router
-} from "./chunk-I7ZJQ7NP.js";
 import "./chunk-K6AM3YNV.js";
 import {
   CommonModule,

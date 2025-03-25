@@ -1,4 +1,7 @@
 import {
+  startFocusVisible
+} from "./chunk-7Q5HCUSL.js";
+import {
   isRTL
 } from "./chunk-EUT5B6DW.js";
 import {
@@ -20,9 +23,6 @@ import {
   printIonContentErrorMsg,
   resetContentScrollY
 } from "./chunk-SWBNJOIY.js";
-import {
-  startFocusVisible
-} from "./chunk-7Q5HCUSL.js";
 import {
   AngularDelegate,
   BACKDROP,
@@ -82,7 +82,7 @@ import {
   setIonicClasses,
   setOverlayId,
   toastController
-} from "./chunk-QRCNEST3.js";
+} from "./chunk-MNKR6H53.js";
 import {
   iosTransitionAnimation
 } from "./chunk-2DZLMLQQ.js";
@@ -154,12 +154,12 @@ import {
   win
 } from "./chunk-ACUVEYEP.js";
 import {
-  NG_VALUE_ACCESSOR
-} from "./chunk-V3SXAQGB.js";
-import {
   ActivatedRoute,
   Router
 } from "./chunk-I7ZJQ7NP.js";
+import {
+  NG_VALUE_ACCESSOR
+} from "./chunk-V3SXAQGB.js";
 import "./chunk-K6AM3YNV.js";
 import {
   CommonModule,
