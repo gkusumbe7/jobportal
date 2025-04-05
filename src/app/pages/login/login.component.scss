@@ -1,9 +1,11 @@
 
 ion-content {
-  --background: white;
-  --color: black;
+  --background: #FBF6FF !important; /* Ensures the background is white */
+  // --color: black;
 }
-ion-header ion-toolbar {
+
+
+ion-header ion-toolbar  {
   --background:white;
   --color: black;
 }
