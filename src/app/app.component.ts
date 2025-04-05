@@ -7,16 +7,14 @@ import { RegisterComponent } from "./pages/register/register.component";
 import { MessagesComponent } from "./pages/messages/messages.component";
 import { RouterOutlet } from '@angular/router';
 import { IonicModule } from '@ionic/angular';
-import { NotificationsComponent } from "./pages/notifications/notifications.component";
 
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   imports: [
-    // RouterOutlet,
+    RouterOutlet,
     IonicModule,
-    // FooterComponent,
-    NotificationsComponent
+    FooterComponent
 ],
 })
 export class AppComponent {
