@@ -40,7 +40,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/global.scss",  
               "src/theme/variables.scss",
-              "src/styles.css",
+              
   "node_modules/bootstrap/dist/css/bootstrap.min.css",
   "node_modules/@ionic/angular/css/core.css",
   "node_modules/@ionic/angular/css/normalize.css",
@@ -127,7 +127,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/global.scss",
               "src/theme/variables.scss",
-              "src/styles.css",
+      
   "node_modules/bootstrap/dist/css/bootstrap.min.css",
   "node_modules/@ionic/angular/css/core.css",
   "node_modules/@ionic/angular/css/normalize.css",
