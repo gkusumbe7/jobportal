@@ -5,10 +5,10 @@ import { FooterComponent } from "../../shared/footer/footer.component";
 
 
 @Component({
-  selector: 'app-applyforms',
+  selector: 'applyforms',
   templateUrl: './applyforms.component.html',
   styleUrls: ['./applyforms.component.scss'],
-  imports: [IonicModule, FormsModule, FooterComponent] 
+  imports: [IonicModule, FormsModule] 
 })
 export class ApplyformsComponent  implements OnInit {
 
