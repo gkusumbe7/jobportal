@@ -2,6 +2,15 @@
 // .inner-scroll.scroll-y {
 //   display: none;
 // }
+
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/padding.css';
+@import '@ionic/angular/css/flex-utils.css';
+
+
 ion-content {
   --background: #FBF6FF !important; /* Ensures the background is white */
   scrollbar-color: rgba(0, 0, 0, 0.4) transparent;
